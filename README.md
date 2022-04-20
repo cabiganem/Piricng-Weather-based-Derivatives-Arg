@@ -1,2 +1,3 @@
 # Piricng-Weather-based-Derivatives-Arg
- Pricing calls and puts based on temperature for Argentina
+The purpose of this work is to design a price model to value derivatives on a temperature index, which can be used as a reference to value weather derivatives in a secondary market in Argentina. 
+The Ornstein-Uhlenbeck stochastic process that describes the temperature dynamics is adjusted to historical data from the Aeroparque, Ezeiza and Buenos Aires meteorological stations. A European call and call spread are valued using Monte Carlo simulations under the assumption of temperature market risk equal to zero and a sensitivity to this parameter is calculated.
