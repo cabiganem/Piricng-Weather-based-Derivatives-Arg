@@ -19,7 +19,7 @@ from scipy.signal import periodogram
 #Import the packages that we will be using
 
 
-data = pd.read_excel("C:/Users/turko/Google Drive/Academia/Maestría en Finanzas UDESA/Tesis/Weather Derivatives/Data/Thesis_data_python.xlsx",index_col=0)
+data = pd.read_excel("./Thesis_data_python.xlsx",index_col=0)
 #Import the data as a DataFrame
 
 data.describe()
